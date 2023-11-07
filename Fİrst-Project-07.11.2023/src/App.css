@@ -1,0 +1,97 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  background-color: aliceblue;
+}
+.header img {
+  width: auto;
+  height: auto;
+}
+.header span {
+  cursor: pointer;
+  color: blue;
+}
+.header span:hover {
+  text-decoration: underline;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  gap: 200px;
+  justify-content: space-evenly;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: blue;
+  cursor: pointer;
+  background-color: aquamarine;
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.category span {
+  padding: 6px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+.category span:hover {
+  background-color: violet;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: aliceblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.card h2 {
+  color: violet;
+}
+.card p {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card p span {
+  color: red;
+  font-size: 22px;
+}
+.card button {
+  width: 20%;
+  align-self: flex-end;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: violet;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.card button:hover {
+  background-color: antiquewhite;
+  color: red;
+}
